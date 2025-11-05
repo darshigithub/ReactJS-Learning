@@ -1,5 +1,14 @@
+import Chai from "./Chai";
+
 function App() {
-  return <h1>Hello World || Vite + React || Darshan</h1>;
+  return (
+    // Fragment 
+    <>
+      <h1>Welcome to 2025</h1>
+      <Chai />
+      <p>Hello, User</p>
+    </>
+  );
 }
 
 export default App;
